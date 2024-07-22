@@ -4,6 +4,7 @@ Shortcuts (or sc for short) is a small utility I've written in bash to give me s
 
 ** Fuctionality
 Currently the script's only function is to supply a simplified syntax for downloading youtube videos from yt-dlp. i'll write up a detailed description of what it does in here sometime but for now just read the code. its pretty clear and there are some comments.
+
 likewise, there are more functions to come. I'd like to add something for ifuse that mounts the device, waits and then unmounts when terminated, but the kitty terminal, which i use, is really annoying about interrupts. probably a good thing in the long run, but i dont know how to interrupt my bash scripts anymore.
 
 ** Usage
