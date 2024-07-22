@@ -9,8 +9,11 @@ likewise, there are more functions to come. I'd like to add something for ifuse 
 
 ** Usage
 copy the script to ~/.local/bin and make it executable
+
 add that directory to your path
+
 add an alias for the script
+
 and you're done
 
 unless there are people out there who use the command line exactly like i do, i don't imagine many people will find this repo useful. just putting my work out there lol.
