@@ -1,0 +1,17 @@
+#+title: Shortcuts
+** Description
+Shortcuts (or sc for short) is a small utility I've written in bash to give me shortcuts to commands I use a lot.
+
+** Fuctionality
+Currently the script's only function is to supply a simplified syntax for downloading youtube videos from yt-dlp. i'll write up a detailed description of what it does in here sometime but for now just read the code. its pretty clear and there are some comments.
+
+** Usage
+copy the script to ~/.local/bin and make it executable
+add that directory to your path
+add an alias for the script
+and you're done
+
+unless there are people out there who use the command line exactly like i do, i don't imagine many people will find this repo useful. just putting my work out there lol.
+
+** Credits
+i used a great tutorial on some random website to set up the argument parsing in this script. i can't find it in my browsing history, but if i do i'll link it.
