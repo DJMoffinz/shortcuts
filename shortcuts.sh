@@ -29,7 +29,7 @@ while [ "$1" != "" ]; do # while there are still arguments to be processed, do
                COMMAND+=" -f \"bestvideo[height<=720][fps<=30]+bestaudio/best\"" # this caps the resolution and framerate because it saves space and i only use this for downloading memes anyway
                COMMAND+=" --extractor-args \"youtube:player_client=android,web\"" # if this wasnt here video probably wouldn't download. see https://github.com/yt-dlp/yt-dlp/issues/8066
                ;;
-        * )    usage # default case, handles unexpected input and exits
+        * )    usage # default case for handling unexpected input, displays usage and exits
                exit 1
     esac
     shift
