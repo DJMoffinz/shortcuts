@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/env bash
 
 usage() {
     echo "Shortcuts (or sc for short) is a small utility I've written in bash to give me shortcuts to commands I use a lot."
